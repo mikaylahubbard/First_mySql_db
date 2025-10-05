@@ -45,11 +45,17 @@ Part 3: Python + MySQL Integration
  
 ## To Run
 
-How I set up the DB:
-
-- Used the VSC Extensions
-  - 
- 
 Necessary downloads:
+
+- python
 - mySQL
-- 
+- Various packages:
+
+| **Package**              | **Purpose**                                          | **Install Command**                  |
+| ------------------------ | ---------------------------------------------------- | ------------------------------------ |
+| `mysql-connector-python` | Connects Python to a MySQL database                  | `pip install mysql-connector-python` |
+| `tabulate`               | Pretty-prints query results as formatted tables      | `pip install tabulate`               |
+| `pyfiglet`               | Generates ASCII-art headers for your menu            | `pip install pyfiglet`               |
+| `sqlparse`               | Safely splits SQL scripts into executable statements | `pip install sqlparse`               |
+
+
